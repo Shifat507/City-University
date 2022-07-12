@@ -13,7 +13,7 @@ body{
     display: flex;
     margin-left: 15px;
 }
-nav ul{
+nav > ul{
     display: flex;
 }
 nav li{
@@ -30,6 +30,20 @@ a{
     text-decoration: none;
     font-size: 30px;
     padding: 15px;
+    color: brown;
+}
+nav > ul > li:hover > ul{
+    display: block;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: white;
+}
+.more-info{
+    padding-left: 12px;
+    text-decoration: none;
+    font-size: 30px;
     color: brown;
 }
 .fornt-image{
