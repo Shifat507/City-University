@@ -1,0 +1,98 @@
+#welcome-note{
+    text-align: center;
+    background-color: rgb(31, 18, 20);
+    margin-top: 0px;
+    font-size: 65px;
+    color: white;
+    margin-bottom: 0%;
+}
+body{
+    margin: 0%;
+}
+.nevi{
+    display: flex;
+    margin-left: 15px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+nav{
+    margin-top: 1.2%;
+    margin-left: 25%;
+}
+nav li:hover{
+    background-color: rgb(134, 104, 104);
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 15px;
+    color: brown;
+}
+.fornt-image{
+    margin-top: 0px;
+}
+.middle-part{
+    display: flex;
+    margin-top: 80px;
+}
+.position{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.discription{
+    margin-left: 20px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-left: 120px;
+    padding-right: 0%;
+    object-position: center;
+}
+
+.card1{
+
+    background-image: url(images/card2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    width: 372px;
+    height: 173px;
+}
+
+.cadrs-text{
+    padding-top: 75px;
+    text-align: center;
+}
+.card2{
+
+    background-image: url(images/card3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    width: 372px;
+    height: 173px;
+}
+.card3{
+    background-image: url(images/card1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    width: 372px;
+    height: 203px;
+}
+.apply-now{
+    background-color: rgb(206, 13, 13);
+    color: white;
+    border-radius: 4px;
+}
+.apply-button{
+    margin-left: 5%;
+    margin-top: 7%;
+    padding-bottom: 7%;
+}
