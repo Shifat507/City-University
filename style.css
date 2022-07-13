@@ -21,14 +21,15 @@ nav li{
 }
 nav{
     margin-top: 1.2%;
-    margin-left: 25%;
+    margin-left: 35%;
+    justify-content: flex-end;
 }
 nav li:hover{
     background-color: rgb(134, 104, 104);
 }
 a{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     padding: 15px;
     color: brown;
 }
@@ -38,12 +39,11 @@ nav > ul > li:hover > ul{
 .dropdown{
     display: none;
     position: absolute;
-    background-color: white;
 }
 .more-info{
     padding-left: 12px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     color: brown;
 }
 .fornt-image{
@@ -109,4 +109,39 @@ nav > ul > li:hover > ul{
     margin-left: 5%;
     margin-top: 7%;
     padding-bottom: 7%;
+}
+.footer-area{
+    margin-top: 0%;
+    padding-top:  50px;
+    padding-left: 80px;
+    margin-bottom: 0%;
+}
+.contact-info{
+    background-color: black;
+    color: white;
+}
+.combine{
+    display: flex;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-linkedin{
+    background: rgb(54, 54, 211);
+    color: white;
+}
+.footer-headline{
+    color: rgb(218, 23, 23);
+}
+.cp-right{
+    background-color: rgb(65, 64, 64);
+    color: white;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align: center;
+
 }
